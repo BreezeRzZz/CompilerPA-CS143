@@ -1,0 +1,16 @@
+#!/bin/bash
+if [ -e check_mine.s ]; then 
+  rm check_mine.s 
+fi
+if [ -e check_expected.s ]; then 
+  rm check_expected.s 
+fi
+../../bin/lexer $1 | ../../bin/parser $1 | ../../bin/semant $1 | ./cgen > check_mine.s 2>&1
+../../bin/lexer $1 | ../../bin/parser $1 | ../../bin/semant $1 | ../../bin/cgen > check_expected.s 2>&1
+result=$(diff check_mine.s check_expected.s)
+
+if [ -z "$result" ]; then 
+  echo "passed"
+else 
+  echo "$result"
+fi

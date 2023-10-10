@@ -1,0 +1,27 @@
+methodTest.cl:16: In redefined method func, return type String is different from original return type Int.
+methodTest.cl:24: In redefined method func, return type String is different from original return type Int.
+methodTest.cl:31: Incompatible number of formal parameters in redefined method func.
+methodTest.cl:38: In redefined method func, parameter type Bool is different from original type Int
+methodTest.cl:44: Incompatible number of formal parameters in redefined method func.
+methodTest.cl:47: Incompatible number of formal parameters in redefined method func.
+methodTest.cl:84: Method e is multiply defined.
+methodTest.cl:56: 'self' cannot be the name of a formal parameter.
+methodTest.cl:56: 'self' cannot be the name of a formal parameter.
+methodTest.cl:56: Inferred return type SELF_TYPE of method a does not conform to declared return type Int.
+methodTest.cl:60: Formal parameter self cannot have type SELF_TYPE.
+methodTest.cl:60: 'self' cannot be the name of a formal parameter.
+methodTest.cl:64: Formal parameter b is multiply defined.
+methodTest.cl:69: Class INT of formal parameter x is undefined.
+methodTest.cl:69: Class INT of formal parameter x is undefined.
+methodTest.cl:69: Formal parameter x is multiply defined.
+methodTest.cl:69: Class STR of formal parameter self is undefined.
+methodTest.cl:69: 'self' cannot be the name of a formal parameter.
+methodTest.cl:74: 'self' cannot be the name of a formal parameter.
+methodTest.cl:74: Class INT of formal parameter self is undefined.
+methodTest.cl:74: 'self' cannot be the name of a formal parameter.
+methodTest.cl:74: Undefined return type INT in method d.
+methodTest.cl:79: 'self' cannot be the name of a formal parameter.
+methodTest.cl:79: Class INT of formal parameter self is undefined.
+methodTest.cl:79: 'self' cannot be the name of a formal parameter.
+methodTest.cl:79: Inferred return type String of method e does not conform to declared return type Int.
+Compilation halted due to static semantic errors.
